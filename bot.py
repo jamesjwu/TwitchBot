@@ -6,6 +6,9 @@ import socket
 import time
 
 
+# Code derived from instructables on twitch mod creation
+
+
 def chat(sock, msg):
     """
     Send a chat message to the server.
