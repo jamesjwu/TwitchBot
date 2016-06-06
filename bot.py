@@ -1,9 +1,12 @@
 # bot.py
 import keyPress
-from cfg import *
+from cfg import HOST, PORT, NICK, CHAN, PASS
 import thread
 import socket
 import time
+
+
+# Code derived from instructables on twitch mod creation
 
 
 def chat(sock, msg):
